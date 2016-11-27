@@ -1,7 +1,11 @@
-#!/bin/bash
-fecha=`date +%Y%m`
-if [ ! -z $1 ]
-then
+#!/usr/bin/env bash
+
+# variables
+fecha=$( date +%Y%m )
+
+
+# pruebas
+if [ ! -z $1 ]; then
     fecha=$1
 fi
 
