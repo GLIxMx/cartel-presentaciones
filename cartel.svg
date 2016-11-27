@@ -2436,16 +2436,6 @@
          in2="BackgroundImage"
          id="feBlend5387" />
     </filter>
-    <filter
-       inkscape:collect="always"
-       style="color-interpolation-filters:sRGB"
-       id="filter5462">
-      <feBlend
-         inkscape:collect="always"
-         mode="lighten"
-         in2="BackgroundImage"
-         id="feBlend5464" />
-    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -2454,11 +2444,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.32"
-     inkscape:cx="660.80815"
-     inkscape:cy="356.25811"
+     inkscape:zoom="0.45254834"
+     inkscape:cx="457.5494"
+     inkscape:cy="404.67226"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer5"
      width="500px"
      height="300px"
      inkscape:window-width="1366"
@@ -2995,18 +2985,5 @@
        sodipodi:end="1.5645515"
        sodipodi:open="true"
        d="m -553.10703,657.90859 a 69,196 0 0 1 -66.87725,-200.09187 69,196 0 0 1 69.82249,-191.80226 69,196 0 0 1 68.16149,196.56408 69,196 0 0 1 -68.56881,195.41764" />
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer6"
-     inkscape:label="Logo 1"
-     style="filter:url(#filter5462);opacity:1">
-    <rect
-       style="opacity:0;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.03200006;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect5470"
-       width="228.125"
-       height="51.5625"
-       x="207.8125"
-       y="602.5" />
   </g>
 </svg>
