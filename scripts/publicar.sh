@@ -11,7 +11,6 @@ fi
 
 
 # convertir a curvas
-#!/bin/bash
 orig=carteles/${fecha}-cartel.svg
 curvas=carteles/${fecha}-cartel-curvas.svg
 cp $orig $curvas
