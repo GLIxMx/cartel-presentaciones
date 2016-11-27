@@ -13,8 +13,8 @@ fi
 # convertir a curvas
 orig=carteles/${fecha}-cartel.svg
 curvas=carteles/${fecha}-cartel-curvas.svg
-cp $orig $curvas
-inkscape $curvas \
+cp ${orig} ${curvas}
+inkscape ${curvas} \
      --verb=UnlockAllInAllLayers \
      --verb=UnhideAllInAllLayers \
      --verb=EditSelectAllInAllLayers \
@@ -43,7 +43,9 @@ inkscape carteles/${fecha}-cartel.svg \
 cp ${curvas} impresion/${fecha}-cartel-curvas.svg
 
 # copiar archivos principales
-rm cartel-web.png cartel.svg
-cp carteles/$fecha-cartel.svg cartel.svg
-cp carteles/$fecha-cartel-curvas.svg cartel-curvas.svg
-cp carteles/$fecha-cartel.png cartel-web.png
+## limpieza
+rm -f cartel.svg cartel-curvas.svg
+
+## copiado
+cp carteles/${fecha}-cartel.svg cartel.svg
+cp carteles/${fecha}-cartel-curvas.svg cartel-curvas.svg
