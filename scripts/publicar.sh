@@ -9,8 +9,6 @@ if [ ! -z $1 ]; then
     fecha=$1
 fi
 
-# exportar a PNG
-inkscape carteles/$fecha-cartel.svg -w 640 -e carteles/${fecha}-cartel.png
 
 # convertir a curvas
 #!/bin/bash
@@ -24,6 +22,26 @@ inkscape $curvas \
      --verb=ObjectToPath \
      --verb=FileSave \
      --verb=FileQuit
+
+
+# exportar
+## PNG web
+inkscape carteles/${fecha}-cartel.svg \
+    -w 640 \
+    -e carteles/${fecha}-cartel-web.png
+
+## PNG impresión
+inkscape carteles/${fecha}-cartel.svg \
+    -d 300 \
+    -e impresion/${fecha}-cartel.png
+
+## PDF impresión
+inkscape carteles/${fecha}-cartel.svg \
+    -d 300 \
+    -A impresion/${fecha}-cartel.pdf
+
+## curvas
+cp ${curvas} impresion/${fecha}-cartel-curvas.svg
 
 # copiar archivos principales
 rm cartel-web.png cartel.svg
