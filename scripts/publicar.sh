@@ -13,7 +13,9 @@ fi
 # convertir a curvas
 orig=carteles/${fecha}-cartel.svg
 curvas=carteles/${fecha}-cartel-curvas.svg
+
 cp ${orig} ${curvas}
+
 inkscape ${curvas} \
      --verb=UnlockAllInAllLayers \
      --verb=UnhideAllInAllLayers \
