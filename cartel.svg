@@ -15,7 +15,7 @@
    height="470mm"
    id="svg3527"
    sodipodi:version="0.32"
-   inkscape:version="0.92pre2 r"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
    version="1.0"
    sodipodi:docname="cartel.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
@@ -36,26 +36,6 @@
          offset="0"
          id="stop3830" />
     </linearGradient>
-    <filter
-       inkscape:collect="always"
-       style="color-interpolation-filters:sRGB"
-       id="filter4878">
-      <feBlend
-         inkscape:collect="always"
-         mode="darken"
-         in2="BackgroundImage"
-         id="feBlend4880" />
-    </filter>
-    <filter
-       inkscape:collect="always"
-       style="color-interpolation-filters:sRGB"
-       id="filter4422-3-6">
-      <feBlend
-         inkscape:collect="always"
-         mode="screen"
-         in2="BackgroundImage"
-         id="feBlend4424-6-1" />
-    </filter>
     <filter
        id="filter3081-4"
        inkscape:label="Drop Shadow"
@@ -931,14 +911,14 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.32"
-     inkscape:cx="723.88211"
+     inkscape:cx="730.13211"
      inkscape:cy="960.18352"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      width="500px"
      height="300px"
-     inkscape:window-width="1366"
-     inkscape:window-height="704"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
      inkscape:window-x="0"
      inkscape:window-y="27"
      showgrid="false"
@@ -1188,7 +1168,7 @@ Rene Bon Ciric</dc:title>
              id="tspan3881"
              x="90.754356"
              y="-515.93604"
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:44.48538589px;font-family:'PT Sans Narrow';-inkscape-font-specification:'PT Sans Narrow Bold Condensed';fill:#ffffff">19:30 hrs</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:44.48538589px;font-family:'PT Sans Narrow';-inkscape-font-specification:'PT Sans Narrow Bold Condensed';fill:#ffffff">18:00 hrs</tspan></text>
       </g>
     </g>
     <g
@@ -1219,7 +1199,7 @@ Rene Bon Ciric</dc:title>
              sodipodi:role="line">¡Entrada</tspan><tspan
              id="tspan5768"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:32.82580566px;line-height:38.62566757px;font-family:'PT Sans Narrow';-inkscape-font-specification:'PT Sans Narrow Condensed';text-align:center;text-anchor:middle;fill:#fffffd;fill-opacity:1;stroke:#ffffff;stroke-width:1.58037591;stroke-opacity:1"
-             y="-801.07776"
+             y="-800.32288"
              x="393.77112"
              sodipodi:role="line">Libre!</tspan></text>
       </g>

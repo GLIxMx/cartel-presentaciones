@@ -1,5 +1,5 @@
 #!/bin/bash
-orig=$1
+orig=${1:-cartel.svg}
 curvas=${orig//.svg/-curvas.svg}
 cp $orig $curvas
 inkscape $curvas \
